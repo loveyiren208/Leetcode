@@ -1,4 +1,4 @@
-package com.chanelnan.com.chanelnan.longestSubstring;
+package com.chanelnan.longestSubstring;
 
 import java.util.HashMap;
 
