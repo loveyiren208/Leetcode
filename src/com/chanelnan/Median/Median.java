@@ -1,9 +1,10 @@
 package com.chanelnan.Median;
 
-import java.util.Arrays;
-
 /**
- * Created by Vivian on 3/12/15.
+ * https://leetcode.com/problems/median-of-two-sorted-arrays/
+ * Median of Two Sorted Arrays
+ * There are two sorted arrays A and B of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+ * Created by Vivian on 3/13/15.
  */
 public class Median {
     public double findMedianSortedArrays(int A[], int B[]) {
@@ -74,7 +75,5 @@ public class Median {
         } else {
             return findKth(A, a1 + indexGap, a2, B, b1, b1 + indexGap, k - indexGap);
         }
-
-        "".substring()
     }
 }
